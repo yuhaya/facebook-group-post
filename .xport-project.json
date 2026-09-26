@@ -1,0 +1,26 @@
+{
+  "format": "xport-github-project",
+  "formatVersion": 1,
+  "kind": "automation",
+  "exportedAt": 1790412758,
+  "project": {
+    "label": "fb-group-post",
+    "name": "Facebook小组发帖",
+    "target": "browser",
+    "version": "1.2.13"
+  },
+  "deviceTargets": [
+    "browser",
+    "android",
+    "ios"
+  ],
+  "socialCategory": {
+    "sourceId": 1,
+    "sourceUid": 0,
+    "name": "Facebook",
+    "icon": "social/774f5503-1c13-4dc5-b966-243db314f6dd.svg",
+    "websiteDomain": "https://www.facebook.com",
+    "androidPackage": "com.facebook.katana",
+    "iosPackage": "com.facebook.Facebook"
+  }
+}
