@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "uuid": "b3c80781-3fc6-4a35-8362-1626784a0bbb",
+  "name": "Facebook小组发帖",
+  "description": "指定小组链接自动发帖",
+  "deviceType": "browser",
+  "socialCategoryId": 1,
+  "deviceId": 14,
+  "status": "completed",
+  "createdAt": 1787367833,
+  "updatedAt": 1787368179,
+  "routes": [
+    {
+      "index": 1,
+      "routeId": "18c8b3b8-02ac-4bb7-b84a-c567004da8dd",
+      "name": "Facebook小组发帖",
+      "description": "",
+      "entryUrl": "https://www.facebook.com/groups/201125708293396",
+      "steps": [
+        {
+          "index": 1,
+          "stepId": "ed9722f5-077c-4c58-96c1-9dee9a63cbb6",
+          "title": "打开小组主页地址",
+          "description": "",
+          "capturedAt": 1787367962,
+          "screenshot": "routes/001/steps/001/screenshot.png",
+          "annotatedScreenshot": "routes/001/steps/001/annotated.png",
+          "markup": "routes/001/steps/001/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/groups/201125708293396",
+              "title": "(9) Travel & Vlogs | Facebook",
+              "pagePath": "routes/001/steps/001/page.html"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "stepId": "08d4213d-ed29-4fc7-903b-0ba45aa13a82",
+          "title": "点击发帖位置",
+          "description": "",
+          "capturedAt": 1787367996,
+          "screenshot": "routes/001/steps/002/screenshot.png",
+          "annotatedScreenshot": "routes/001/steps/002/annotated.png",
+          "markup": "routes/001/steps/002/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/groups/201125708293396",
+              "title": "(9) Travel & Vlogs | Facebook",
+              "pagePath": "routes/001/steps/002/page.html"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "stepId": "ad6a69e7-e020-46f8-8ede-471e040dd5c2",
+          "title": "设置发帖内容",
+          "description": "设置发帖文案，图片视频等附件",
+          "capturedAt": 1787368046,
+          "screenshot": "routes/001/steps/003/screenshot.png",
+          "annotatedScreenshot": "routes/001/steps/003/annotated.png",
+          "markup": "routes/001/steps/003/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/groups/201125708293396",
+              "title": "(9) Travel & Vlogs | Facebook",
+              "pagePath": "routes/001/steps/003/page.html"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "stepId": "93fc842d-db29-4a72-8011-e59095f897f6",
+          "title": "点击发布",
+          "description": "有可能会弹出多次确认，多次点击直到发布成功即可",
+          "capturedAt": 1787368124,
+          "screenshot": "routes/001/steps/004/screenshot.png",
+          "annotatedScreenshot": "routes/001/steps/004/annotated.png",
+          "markup": "routes/001/steps/004/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/groups/201125708293396",
+              "title": "(9) Travel & Vlogs | Facebook",
+              "pagePath": "routes/001/steps/004/page.html"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

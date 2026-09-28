@@ -2,7 +2,7 @@
   "format": "xport-github-project",
   "formatVersion": 1,
   "kind": "automation",
-  "exportedAt": 1790414274,
+  "exportedAt": 1790575122,
   "project": {
     "label": "fb-group-post",
     "name": "Facebook小组发帖",
@@ -22,5 +22,13 @@
     "websiteDomain": "https://www.facebook.com",
     "androidPackage": "com.facebook.katana",
     "iosPackage": "com.facebook.Facebook"
+  },
+  "record": {
+    "uuid": "b3c80781-3fc6-4a35-8362-1626784a0bbb",
+    "name": "Facebook小组发帖",
+    "description": "指定小组链接自动发帖",
+    "deviceType": "browser",
+    "status": 2,
+    "updateAt": 1787368179
   }
 }
